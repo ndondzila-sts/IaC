@@ -1,0 +1,14 @@
+$ sudo yum -y update
+$ sudo yum install -y httpd.x86_64
+$ sudo systemctl start httpd.service
+$ sudo systemctl enable httpd.service
+$ sudo cd var/www
+$ sudo touch index.html
+$ sudo chmod 755 index.html
+$ sudo vi index.html
+
+Added text to the html file
+<h1>Hello World!  This is an Apache web server hosted on an AWS Linux instance by Nicholas Dondzila and the hostname is </h1>
+
+
+Hosted at http://54.205.182.91
