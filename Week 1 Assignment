@@ -1,7 +1,9 @@
 $ sudo su
 # yum -y update
 # yum install httpd
+service httpd start
 # hostnamectl set-hostname ndondzila-sts-iac-linux-on-ec2
+
 # cd var/www
 
 # vi index.html
@@ -20,6 +22,6 @@ Added text to the html file
 esc
 :x
 chmod 755 index.html
-service httpd start
+
 
 Hosted at the EC2's IP (changes each reboot)
