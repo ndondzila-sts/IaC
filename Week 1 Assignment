@@ -2,7 +2,8 @@ $ sudo su
 # yum -y update
 # yum install httpd
 service httpd start
-# hostnamectl set-hostname ndondzila-sts-iac-linux-on-ec2
+
+# hostnamectl set-hostname ndondzila-sts-iac
 
 # cd var/www
 
